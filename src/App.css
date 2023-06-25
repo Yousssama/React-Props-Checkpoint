@@ -1,0 +1,111 @@
+body {
+  background-image: url('https://user-images.githubusercontent.com/22690563/67150939-14a0b180-f2c7-11e9-8016-a993a397e1c5.jpg')
+}
+
+.players-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 70px;
+}
+
+.card {
+  width: 17rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #777;
+}
+
+.card-info {
+  margin-top: 16px;
+}
+
+.card-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.card-info-label {
+  flex: 0 0 120px;
+  font-weight: bold;
+}
+
+.card-info-value {
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  margin: 60px 0 60px 0;
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+.fut-card {
+  width: 260px;
+  height: 420px;
+  background-color: #6588a5;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 70%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.card-details {
+  padding: 16px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 8px;
+  text-decoration: overline;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.4;
+}
+
+.card-text span {
+  font-weight: bold;
+}
